@@ -37,7 +37,23 @@ The goal of this project is to:
 - DNS server handling
 
 ---
+## 🔧 Development Environment Setup
 
+This project uses the Arduino framework for ESP8266-based development.
+
+### Board Manager Configuration
+
+To compile and study the firmware in a local lab environment:
+
+1. Open **Arduino IDE**
+2. Go to **File → Preferences**
+3. In **Additional Boards Manager URLs**,  add:https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json
+4. Open **Tools → Board → Boards Manager**
+5. Install the required ESP8266 board definitions
+
+> Note: This configuration is documented for educational and research purposes only.
+
+----
 ## 📐 Architecture (High Level)
 
 1. ESP8266 operates in AP + STA mode
